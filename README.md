@@ -1,2 +1,13 @@
 # lab-incubator
-可抛弃的个人实验与探针；结论晋升后才独立成仓
+
+Throwaway experiments. If something survives 90 days, it graduates to its own repo.
+
+## Current
+
+- `skill-pack` (proposed): installable agent skills. Problem statement lives in private `grokbuild`.
+
+## Rules
+
+- Synthetic or public data only
+- No employer documents
+- Delete freely
