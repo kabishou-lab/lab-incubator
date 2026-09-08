@@ -1,13 +1,23 @@
 # lab-incubator
 
-Throwaway experiments. If something survives 90 days, it graduates to its own repo.
+Throwaway experiments. Survive 90 days → own repo.
 
-## Current
+Synthetic or public data only. No employer documents.
 
-- `skill-pack` (proposed): installable agent skills. Problem statement lives in private `grokbuild`.
+## Skills
 
-## Rules
+`skills/<name>/SKILL.md` with YAML `name` and `description`.  
+First pack: **grill-me** (planning interview).
 
-- Synthetic or public data only
-- No employer documents
-- Delete freely
+Verify:
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+## Layout
+
+```
+skills/grill-me/SKILL.md
+tests/test_skill_frontmatter.py
+```
